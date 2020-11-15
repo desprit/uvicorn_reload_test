@@ -5,6 +5,8 @@ An attempt to reproduce scenario where Uvicorn hot reloading gets stuck.
 # Installation
 
 ```sh
+git clone https://github.com/desprit/uvicorn_reload_test.git
+cd uvicorn_reload_test
 virtualenv --no-site-packages -p python3.8 venv
 pip install -r requirements.txt
 ```
